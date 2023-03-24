@@ -8,3 +8,5 @@ resources:
   - namespace.yaml
 transformers:
   - labels.yaml
+patchesStrategicMerge:
+  - patch-replicas.yaml
